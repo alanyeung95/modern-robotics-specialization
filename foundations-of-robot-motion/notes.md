@@ -1,3 +1,5 @@
+# chapter 2
+
 ## degree of freedom
 
 <img src="diagrams/diagram-4.png" width="400"/>
@@ -28,3 +30,7 @@ the space of all configurations
 calculate degree of freedom
 
 dof = m(N-1-J) + freedom of joint
+
+### topology
+
+shape
