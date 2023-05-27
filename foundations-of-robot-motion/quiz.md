@@ -13,3 +13,23 @@ Wrist rotation: The wrist joint contributes one rotational degree of freedom, of
 However, when you must keep the tray horizontal, it constrains the wrist rotation to maintain the tray's level position. As a result, the wrist's rotational degree of freedom is eliminated, reducing the total degrees of freedom.
 
 Therefore, with the constraint of keeping the tray horizontal, your arm would have 5 degrees of freedom: 3 for translation, 2 for shoulder rotation (pitch and yaw), while the wrist rotation (pronation/supination) is restricted.
+
+## question
+
+<img src="diagrams/diagram-5.png" width="400"/>
+
+## question
+
+<img src="diagrams/diagram-6.png" width="400"/>
+
+## question
+
+The task is to carry a waiter’s tray so that it is always horizontal (orthogonal to the gravity vector), but otherwise free to move in any other direction. How many degrees of freedom does the task space (the C-space of a horizontal tray) have? (Enter an integer number.)
+
+## ans (chatgpt)
+
+The task is to keep the waiter's tray horizontal (orthogonal to the gravity vector) while allowing freedom of movement in other directions. To determine the degrees of freedom of the task space, we need to consider the constraints and freedoms involved.
+
+In this case, since the tray must remain horizontal, it eliminates the rotation about two axes (roll and pitch). Therefore, the tray can only rotate about one axis (yaw) to maintain its horizontal position. Additionally, there are three translational degrees of freedom (x, y, and z) available for the tray's movement in the remaining directions.
+
+Hence, the task space, or C-space, of a horizontal tray has a total of 4 degrees of freedom: 1 degree for rotation (yaw) and 3 degrees for translation (x, y, and z).

@@ -19,6 +19,25 @@ M=6 , N=14, J=18
 
 dof = 3(14 -1-18 )+ (3+1+2)\*6 = 6
 
+## configuration space respresentation
+
+### explicit parametrization
+
+use a minimum number of coordinates to represent the space (e.g. latitude & longitude)
+
+disvantage: longitude change faster when approaching North Pole. when pass North Pole, longitude change 180 degrees
+
+### implicit parametrization
+
+use a more coordinates to represent the space but more contraint
+
+# chapter 3
+
+## rotation matrix
+
+P = [[1], [2], [3]], rotation matrix [[1, 0, 0], [0, 0, -1], [0, 1, 0]]
+P' = R * P = [[1*1+0*2+0*3],[0*1+0*2+-1*3],[0*1+1*2+0*3]] = [[1],[-3],[2]]
+
 ## terms
 
 ### c-space
@@ -30,6 +49,9 @@ the space of all configurations
 calculate degree of freedom
 
 dof = m(N-1-J) + freedom of joint
+
+N = number of link
+J = number of joint
 
 ### topology
 
