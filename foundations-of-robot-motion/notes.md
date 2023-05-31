@@ -42,7 +42,7 @@ P' = R * P = [[1*1+0*2+0*3],[0*1+0*2+-1*3],[0*1+1*2+0*3]] = [[1],[-3],[2]]
 
 SO(3) is 3x3 rotation matrices with a determinate of +1
 
-so(3) is 3x3 xskew-symmetric matrices. it represent the angular velocity followed for unit time.
+so(3) is 3x3 skew-symmetric matrices. it represent the angular velocity followed for unit time.
 
 exp: [ω]theta so(3) -> SO(3) (like integration)
 log: SO(3) -> so(3) (like differentitation)
@@ -52,6 +52,10 @@ log: SO(3) -> so(3) (like differentitation)
 can be used to calcuate matrix exponential when the matrix is an element of so(3) (a skew-symmetric 3x3 matrix))
 
 e.g. Rot(ω, theta) = e^[ω]\*theta
+
+# chapter 4
+
+<img src="diagrams/diagram-7.png" width="500"/>
 
 # terms
 
